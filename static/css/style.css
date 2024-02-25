@@ -1,0 +1,144 @@
+body{
+    background-color: white;
+
+}
+.navbar-brand{
+    padding: 10px 10px;
+}
+.main-div {
+    margin: 15px 15px;
+}
+.inner-div{
+    width: 50%;
+    display: inline-block;
+    color: black;
+}
+.inner-div .btn{
+    margin-left: 40px;
+}
+
+.inner-div .buttons{
+    font-size: large;
+    background-color: black;
+    color: white;
+    border-radius: 1px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.inner-div .buttons :hover, a:active {
+     color: #cc3333; 
+     border-bottom-style: solid; 
+     border-bottom-color: #cc3333; }
+.message.tags{
+    background-color: yellow;
+  }  
+
+.outer-div{
+    width:100% ;
+}
+.outer-div .inner-div{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.outer-div .inner-div p{
+    width: 80%;
+    font-size: medium;
+}
+
+.outer-di{
+    width:100% ;
+}
+.outer-di .inner-di{
+    margin: 10px 40px;
+}
+
+.outer-home {
+    width: 100%;
+}
+.outer-home .inner-home{
+    margin: 10px 35px;
+}
+#col1{
+    border: 1px solid green;
+    width: fit-content;
+    height: 230px;
+    width: 220px;
+    padding: 5px 5px;
+    font-size: large;
+}
+#col2{
+    margin-top: 10px;
+    border: 1px solid green;
+    width: fit-content;
+    height: 210px;
+    width: 220px;
+    padding: 5px 5px;
+    font-size: large;
+}
+
+@media (min-width: 600px) {
+    .outer-div {
+        width: 48%;
+    }
+.buttons{
+    background-color: black;
+    color: white;
+    padding: 5px 14px;
+    font-size: medium;
+    outline: 2px solid white;
+    margin-left: 70px;
+}
+
+/* ###################### home page################## */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    height: 620px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+@media (min-width: 600px) {
+    .box {
+        width: 48%;
+    }
+}
+
+@media (min-width: 768px) {
+    .box {
+        width: 31.33%;
+    }
+}
+
+@media (min-width: 992px) {
+    .box {
+        width: 23.5%;
+    }
+}
+
+
+}
+
+.content-wrapper .content{
+    border: 2px solid black;
+}

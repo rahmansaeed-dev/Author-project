@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    {% block home %}
+    <div class="container">
+        <div class="box">
+            <h3>Welcome in Book Seler & Buyer Shop.</h3><br>
+            <div id="col1">
+                <h2>You are buyer</h2>
+                <p>Click this link bellow!</p><br>
+                <a href="{% url 'buyer' %}" class="buttons">Buyer</a>
+            </div>
+            <div id="col2">
+                <h2>You are Seler</h2>
+                <p>Click this link bellow!</p><br>
+                <a href="{% url 'seller' %}" class="buttons">Seler</a>
+            </div>
+        </div>
+ 
+    </div>
+    {% endblock %}
+</body>
+</html>
